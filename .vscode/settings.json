@@ -1,0 +1,41 @@
+{
+  "explorer.compactFolders": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "vscode-icons",
+
+  "editor.fontFamily": "'Cascadia Code', 'Fira Coda'",
+  "editor.fontSize": 20,
+  "editor.fontLigatures": true,
+
+  "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontVariations": false,
+  "editor.accessibilitySupport": "auto",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "tailwindCSS.classAttributes": ["className", ".*createStyles*", "class"],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "editor.inlineSuggest.enabled": true,
+
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command"
+  ],
+  "editor.fontWeight": "normal",
+
+  "[env]": {
+    "workbench.editor.languageDetection": false
+  }
+}

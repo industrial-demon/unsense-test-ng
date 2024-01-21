@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <ghost-input label="Password" formControlName="password"></ghost-input>
+
+
+  <div class="p-2 my-3">
+      <ns-field-indicator [fieldControl]="form.get('password')"></ns-field-indicator>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>

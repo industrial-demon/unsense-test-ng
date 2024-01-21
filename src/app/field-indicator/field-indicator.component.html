@@ -1,0 +1,15 @@
+<h3>Password: {{ indicator | indicatorName }}</h3>
+
+<ol class="indicator-list">
+  <li [ngClass]="getEasyClass()">
+    <h3>Easy</h3>
+  </li>
+
+  <li [ngClass]="getMediumClass()">
+    <h3>Medium</h3>
+  </li>
+
+  <li [ngClass]="getStrongClass()">
+    <h3>Strong</h3>
+  </li>
+</ol>
