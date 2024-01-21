@@ -4,7 +4,7 @@ export const symbolsRegex = /^[^\w\s]+$/;
 
 export const lettersAndNumbersRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]+$/;
 export const lettersAndSymbolsRegex =
-  /^[a-zA-Z]+[%&*+#:;<=>@^_`|~-]+[a-zA-Z]+$/;
+/^(?=.*[a-zA-Z])(?=.*[!@#$%^&*(),.?":{}|<>]).+$/
 
 export const numbersAndSymbolsRegex =
   /^(?=\D*\d)(?=\d*\D)[\d$%&*+#\-./:<=>?@^_`|~]+$/;
